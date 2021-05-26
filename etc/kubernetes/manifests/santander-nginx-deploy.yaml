@@ -69,8 +69,9 @@ spec:
             secretName: santander-nginx-deploy-secret
           name: santander-nginx-deploy-volume-default
         -
-          emptyDir: []
+          emptyDir: {}
           name: santander-nginx-deploy-volume-cache
         -
-          emptyDir: []
+          emptyDir: {}
           name: santander-nginx-deploy-volume-run
+status: {}
